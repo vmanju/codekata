@@ -3,30 +3,27 @@ package talentbuddy;
 public class QuerySearch {
 	
 	public static void searchQuery(String[] query, String[] pages) {
-        // Write your code here
-        // To print results to the standard output please use System.out.println
-        // Example: System.out.println("Hello world!");
-        
-        int result = 0;
-
-        
+		int count = 0;
         for(String page: pages) {
             int index = -1;
             for(String s: query) {
                 index = page.indexOf(s);
+                
                 // if string not found in page
                 if(index < 0) break;
                 
-                // if string found in page, then substring page
-                // since there could be duplicates in page
+                // if string found in page
+                // then substring it for next iteration
+                // since we want to find subsequent strings
+                // later in the page
                 page = page.substring(index);
             }
-            if(index>0) result++;
+            if(index>0) count++;
         }
         
-        System.out.println(result);
-        
+        System.out.println(count);     
     }
+    
 	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
