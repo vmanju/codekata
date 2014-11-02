@@ -1,8 +1,9 @@
 package talentbuddy;
 
+import java.util.ArrayDeque;
+import java.util.Deque;
 import java.util.HashSet;
 import java.util.Set;
-import java.util.Stack;
 
 public class RPNEvaluator {
 
@@ -41,10 +42,7 @@ public class RPNEvaluator {
     }
     
     public static void rpn_eval(String expr) {
-        // Write your code here
-        // To print results to the standard output please use System.out.println
-        // Example: System.out.println("Hello world!");
-        Stack<Integer> stack = new Stack<>();
+        Deque<Integer> stack = new ArrayDeque<>();
         Set<String> operators = new HashSet<>();
         operators.add("+");
         operators.add("-");
