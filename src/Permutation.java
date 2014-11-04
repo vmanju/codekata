@@ -20,6 +20,7 @@ public class Permutation {
 	}
 	
 	public static void main(String[] args) {
+		
 		Permute("", "cats");
 		PermuteK("", "cats", 2);
 	}
