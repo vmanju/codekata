@@ -1,3 +1,4 @@
+package interviewcake;
 public class Permutation {
 	
 	private static void Permute(String prefix, String s){

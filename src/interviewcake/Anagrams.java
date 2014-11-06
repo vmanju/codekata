@@ -1,3 +1,4 @@
+package interviewcake;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
@@ -17,16 +18,10 @@ public class Anagrams {
 			char[] s_arr = s.toCharArray();
 			Arrays.sort(s_arr);
 			String key = String.valueOf(s_arr);
-			List<String> list = null;
+				
 			if(!hash.containsKey(key))
-				list = new ArrayList<String>();	
-			else 
-				list = hash.get(key);
-			list.add(s);
-			hash.put(key, list);	
-			/*if(!hash.containsKey(key))
 				hash.put(key, new ArrayList<String>());
-			hash.get(key).add(s);*/
+			hash.get(key).add(s);
 			
 		}
 		

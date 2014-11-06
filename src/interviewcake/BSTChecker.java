@@ -1,3 +1,4 @@
+package interviewcake;
 public class BSTChecker {
 
 	private static boolean isBSTHelper(Node node, int min, int max) {

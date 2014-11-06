@@ -1,3 +1,4 @@
+package interviewcake;
 
 public class MaxProfit {
 
