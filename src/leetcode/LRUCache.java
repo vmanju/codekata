@@ -6,7 +6,6 @@ import java.util.Map;
 /**
  * LRU Cache implemented via a hashmap
  * containing keys
- * @author arun.varadarajan
  *
  */
 public class LRUCache {
