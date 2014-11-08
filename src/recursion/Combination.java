@@ -16,7 +16,7 @@ public class Combination {
     }
     
     public static void main(String[] args){
-        //combine("", "abc");
+        combine("", "abc");
         combineK("", "abc", 2);
     }
 
