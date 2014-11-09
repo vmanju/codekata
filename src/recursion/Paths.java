@@ -37,9 +37,6 @@ public class Paths {
 	}
 	
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
-		int[][] grid = new int[3][3];
 		System.out.println(numberOfPaths(3,3));
 		System.out.println(numberOfPaths2(3,3));
 	}
