@@ -40,7 +40,7 @@ public class BinarySearch {
     public static void main(String[] args){
         System.out.println(binarySearch3(new int[]{-2, -1, 0, 1, 2}, 2));
         System.out.println(binarySearch3(new int[]{-2, -1, 0, 2, 3}, 1));
-        System.out.println(binarySearch(new int[]{0, 0, 0, 1, 1, 1, 1, 1, 1}, 1));
+        System.out.println(binarySearch3(new int[]{0, 0, 0, 1, 1, 1, 1, 1, 1}, 1));
         System.out.println(binarySearch3(new int[]{0, 0, 0}, 0));
     }
 

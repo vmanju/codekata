@@ -15,9 +15,12 @@ public class Combination {
             combineK(prefix+s.charAt(i), s.substring(i+1), k-1);
     }
     
+    
+    
+    
     public static void main(String[] args){
         combine("", "abc");
-        combineK("", "abc", 2);
+        combineK("", "abc", 2); 
     }
 
 }
